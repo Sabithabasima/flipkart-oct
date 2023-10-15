@@ -1,0 +1,76 @@
+
+.body{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+nav ul li{
+    text-decoration: none;
+}
+
+.rating {
+    color: #FFD700; /* Gold color for stars */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.star {
+    display: inline-block;
+}
+
+ .photo a{
+    text-decoration: none;
+    color: black;
+}
+
+#iphone a{
+    text-decoration: none;
+}
+
+.container-fluid .product1 .details a{
+    text-decoration: dotted;
+    color: black;
+}
+
+.container-fluid .product1 .price a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-fluid .product1 .price a span{
+    text-decoration-line:line-through;
+}
+
+
+/* footer */
+
+
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+footer h6{
+    color: gray;
+}
+footer p{
+    font-size: small;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer address{
+    font-size: small;
+}
+
+.seller a{
+    text-decoration: none;
+}

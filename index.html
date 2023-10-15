@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flikart</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque&family=Dosis:wght@200;400;700&family=Gabarito&family=Mooli&family=Nunito:ital,wght@0,200;0,300;0,500;1,200;1,600;1,700&family=Pacifico&family=Raleway:ital@0;1&family=Ubuntu:ital,wght@0,300;1,300&family=Zeyada&display=swap"
+        rel="stylesheet">
+
+    <link rel="website icon " href="./images/flikart-icon.png" class="round">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  bg-primary border-bottom border-body">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="https://www.flipkart.com/" target="_blank" ><img
+                    src="./images/flikart-logo-left.png" alt="" class="img-fluid w-25"></a>
+                    <a href="https://www.flipkart.com/plus" target="_blank" class="text-warning p-5 " style="position: absolute; text-decoration: none; margin-top: 34px;margin-left: auto; font-size: 10px;"><span class="text-light" >EXPLORE</span> PLUS<i class="fa-regular fa-star-half-stroke" style="color: #fff942;"></i></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex" role="search">
+                <input class="form-control" type="search" placeholder="Iphone" aria-label="Search">
+                <a class="shadow-lg btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"
+                        style="color: #0259ed;"></i></a>
+            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-primary text-bg-light m-3 p-2  mb-1" aria-current="page"
+                            href="#">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light p-3 fw-bold fs-5" aria-current="page"
+                            href="https://seller.flipkart.com/sell-online?utm_source=fkwebsite&utm_medium=websitedirect">Become
+                            a
+                            Seller</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light p-3 fs-5" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://www.flipkart.com/communication-preferences/push?t=all"><i
+                                        class="fa-solid fa-bell" style="color: #0d63f8;"></i> Notification
+                                    Preferences</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://advertising.flipkart.com/login?returl=/?otracker=ch_vn_advertise_header"><i
+                                        class="fa-solid fa-arrow-trend-up" style="color: #0d63f8;"></i>Advertise</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.flipkart.com/helpcentre"><i
+                                        class="fa-solid fa-circle-question" style="color: #0d63f8;"
+                                        data-bs-target="blank"></i>24 x 7 Customer Care </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps"><i
+                                        class="fa-solid fa-download" style="color: #0d63f8;"></i></i>Download app</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-light p-3 fw-bold fs-5" target="_blank"
+                            href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART"><i
+                                class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>cart</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="iphone " class="iphone">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- product selection  -->
+                <div class="col-lg-2 shadow-sm ms-1">
+                    <div class="border-bottom p-2">
+                        <h4>Filters</h4>
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h5>categories</h5>
+                        <a style="text-decoration: none; color: black;" href="#">mobiles</a>
+                    </div>
+                    <div class=" border-bottom p-2">
+                        <h5>Price</h5>
+                        <div class="d-flex">
+                            <select name="minimum values" id="min">
+                                <option hidden value="1">min</option>
+                                <option value="2">₹10000</option>
+                                <option value="3">₹20000</option>
+                                <option value="4">₹30000</option>
+                                <option value="5">₹40000</option>
+                            </select>to
+                            <select name="maximum values" id="max">
+                                <option hidden value="q">max</option>
+                                <option value="">₹10000 </option>
+                                <option value="">₹20000</option>
+                                <option value="">₹30000</option>
+                                <option value="">₹40000</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h5>Brand</h5>
+                        <input type="checkbox" id="brand">
+                        <label for="brand">APPLE</label>
+                    </div>
+                    <div class="border-bottom p-2">
+                        <input type="checkbox">
+                        <img src="./images/flikart assured logo.png" alt="" class="w-50">
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h6>CUSTOMER RATING</h6>
+                        <input type="checkbox" id="4">
+                        <label for="4">4 &#9733; & above </label> <br>
+                        <input type="checkbox" id="3">
+                        <label for="3">3 &#9733; & above </label>
+
+                    </div>
+                    <div class="border-bottom p-2">
+                        <input type="checkbox" id="gst">
+                        <label for="gst">GST Invoice Available</label>
+
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h5>RAM</h5>
+                        <input type="checkbox" id="ram">
+                        <label for="ram">RAM 1GB Below</label>
+
+
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h6>INTERNAL STORAGE</h6>
+
+                        <input type="checkbox" id="256">
+                        <label for="256">256 GB & Above</label> <br>
+                        <input type="checkbox" id="128">
+                        <label for="128">128 - 255.9 GB</label> <br>
+                        <input type="checkbox" id="64">
+                        <label for="64">64 - 127.9 GB</label> <br>
+                        <input type="checkbox" id="32">
+                        <label for="32">32 - 63.9 GB</label> <br>
+                        <input type="checkbox" id="16">
+                        <label for="16">16 - 31.9 GB</label> <br>
+                        <input type="checkbox" id="8">
+                        <label for="8">8 - 15.9 GB</label> <br>
+
+
+
+
+
+
+
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h6>BATTERY CAPACITY</h6>
+                        <input type="checkbox" id="1999">
+                        <label for="1999">1000 - 1999 mAh</label> <br>
+                        <input type="checkbox" id="2999">
+                        <label for="2999">2000 - 2999 mAh</label> <br>
+
+
+
+
+
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h6>SCREEN SIZE</h6>
+                        <input type="checkbox" id="5.6">
+                        <label for="5.6">5.5 - 5.6 inch</label> <br>
+                        <input type="checkbox" id=" 4.9">
+                        <label for=" 4.9">4.5 - 4.9 inch</label> <br>
+                        <input type="checkbox" id="4.4">
+                        <label for="4.4">4 - 4.4 inch</label> <br>
+
+
+
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h6>PRIMARY CAMERA</h6>
+                        <input type="checkbox" id="7.9 MP">
+
+                        <label for="7.9 MP"> 5 - 7.9 MP</label> <br>
+                        <input type="checkbox" id=" 11.9 MP">
+                        <label for=" 11.9 MP">8 - 11.9 MP</label> <br>
+                        <input type="checkbox" id="63.9 MP">
+                        <label for="63.9 MP">48 - 63.9 MP</label> <br>
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h6> SECONDARY CAMERA</h6>
+                        <input type="checkbox" id="a">
+                        <label for="a"> 12 - 15.9 MP</label> <br>
+                        <input type="checkbox" id=" b">
+                        <label for=" b">5 - 7.9 MP</label> <br>
+                        <input type="checkbox" id="c">
+                        <label for="c">Below 5 MP</label> <br>
+
+
+
+                    </div>
+                    <div class="border-bottom p-2">
+                        <h6>PROCESSOR BRAND</h6>
+                        <input type="checkbox" id="d">
+                        <label for="d">Apple</label>
+
+
+                    </div>
+
+                    <div class="border-bottom p-2">
+                        <h6>SPECIALITY</h6>
+                        <input type="checkbox" id="e">
+                        <label for="e"> Big Storage</label> <br>
+                        <input type="checkbox" id=" f">
+                        <label for=" f">Long-Lasting Battery</label> <br>
+                        <input type="checkbox" id="g">
+                        <label for="g">Selfie Camera</label> <br>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <!-- product details -->
+                <div class="col-lg-9 ms-1 shadow-sm">
+                    <div class="product1">
+                        <div class="col row shadow-sm p-3">
+                            <div class="col-lg-3 ">
+                                <div class="photo">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=f9fe62cc-9759-494b-91a9-f258d659bc77.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=qmua3l4kw00000001697263482171&qH=0b3f45b266a97d70"
+                                        target="_blank"><img src="./images/apple14blue.webp" alt=""
+                                            class="img-fluid w-100"></a>
+
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=f9fe62cc-9759-494b-91a9-f258d659bc77.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=qmua3l4kw00000001697263482171&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <input type="checkbox" id="compare">
+                                        <label for="compare">Add to Compare</label>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-5  ">
+                                <div class="details">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=de844c8f-af39-4916-adfb-f008f2b801fd.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=uk04n187800000001697264106308&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <h4>APPLE iPhone 14 (Blue, 128 GB)</h4>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9734;</span>
+                                        </div>
+
+                                        <ul>
+                                            <li>128 GB ROM</li>
+                                            <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                                            <li>12MP + 12MP | 12MP Front Camera</li>
+                                            <li>A15 Bionic Chip, 6 Core Processor Processor</li>
+                                            <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="price">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=de844c8f-af39-4916-adfb-f008f2b801fd.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=uk04n187800000001697264106308&qH=0b3f45b266a97d70"
+                                        target="_blank">
+
+                                        <div class="d-flex">
+                                            <h3>₹57,999</h3>
+                                            <img src="./images/flikart assured logo.png" alt="" class='w-50'>
+                                        </div>
+                                        <p><span>₹69,900</span>
+                                            17% off</p>
+                                        <p>
+                                            Free delivery
+
+                                            <p class="text-bg-primary">Crazy Deal of the Year</p>
+                                        </p>
+                                        <h6>Upto ₹39,150 Off on Exchange</h6>
+
+
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- 2nd product -->
+
+                    <div class="product1">
+                        <div class="col row shadow-sm p-3">
+                            <div class="col-lg-3 ">
+                                <div class="photo">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=80353849-6b4e-4d41-8c55-89e75adb1c90.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=47g7b02in40000001697276159548&qH=0b3f45b266a97d70"
+                                        target="_blank"><img src="./images/product2.webp" alt=""
+                                            class="img-fluid w-100"></a>
+
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=80353849-6b4e-4d41-8c55-89e75adb1c90.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=47g7b02in40000001697276159548&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <input type="checkbox" id="compare">
+                                        <label for="compare">Add to Compare</label>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-5  ">
+                                <div class="details">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=80353849-6b4e-4d41-8c55-89e75adb1c90.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=47g7b02in40000001697276159548&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <h4>APPLE iPhone 14 (Starlight, 128 GB)</h4>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9734;</span>
+                                        </div>
+
+                                        <ul>
+
+
+                                            <li>128 GB ROM</li>
+                                            <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                                            <li>12MP + 12MP | 12MP Front Camera</li>
+                                            <li>A15 Bionic Chip, 6 Core Processor Processor</li>
+
+                                        </ul>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="price">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=80353849-6b4e-4d41-8c55-89e75adb1c90.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=47g7b02in40000001697276159548&qH=0b3f45b266a97d70"
+                                        target="_blank">
+
+                                        <div class="d-flex">
+                                            <h3>₹57,999</h3>
+                                            <img src="./images/flikart assured logo.png" alt="" class='w-50'>
+                                        </div>
+
+                                        <p>
+                                            <span>₹69,900</span> 17% off
+                                            Free delivery
+                                        </p>
+
+                                        <p class="text-bg-primary">Crazy Deal of the Year</p>
+
+                                        </p>
+                                        <p class="text-danger fs-6">only 1 left</p>
+
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- 3rd product -->
+
+
+                    <div class="product1">
+                        <div class="col row shadow-sm p-3">
+                            <div class="col-lg-3 ">
+                                <div class="photo">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-midnight-128-gb/p/itm9e6293c322a84?pid=MOBGHWFHECFVMDCX&lid=LSTMOBGHWFHECFVMDCXSSCYWA&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=80353849-6b4e-4d41-8c55-89e75adb1c90.MOBGHWFHECFVMDCX.SEARCH&ppt=sp&ppn=sp&ssid=47g7b02in40000001697276159548&qH=0b3f45b266a97d70"
+                                        target="_blank"><img src="./images/product3.webp" alt=""
+                                            class="img-fluid w-100"></a>
+
+                                    <a href="https://www.flipkart.com/apple-iphone-14-midnight-128-gb/p/itm9e6293c322a84?pid=MOBGHWFHECFVMDCX&lid=LSTMOBGHWFHECFVMDCXSSCYWA&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=80353849-6b4e-4d41-8c55-89e75adb1c90.MOBGHWFHECFVMDCX.SEARCH&ppt=sp&ppn=sp&ssid=47g7b02in40000001697276159548&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <input type="checkbox" id="compare">
+                                        <label for="compare">Add to Compare</label>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-5  ">
+                                <div class="details">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-midnight-128-gb/p/itm9e6293c322a84?pid=MOBGHWFHECFVMDCX&lid=LSTMOBGHWFHECFVMDCXSSCYWA&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=80353849-6b4e-4d41-8c55-89e75adb1c90.MOBGHWFHECFVMDCX.SEARCH&ppt=sp&ppn=sp&ssid=47g7b02in40000001697276159548&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <h4>APPLE iPhone 14 (Midnight, 128 GB)</h4>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9734;</span>
+                                        </div>
+
+                                        <ul>
+
+
+                                            <li>128 GB ROM</li>
+                                            <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                                            <li>12MP + 12MP | 12MP Front Camera</li>
+                                            <li>A15 Bionic Chip, 6 Core Processor Processor</li>
+                                            <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="price">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-midnight-128-gb/p/itm9e6293c322a84?pid=MOBGHWFHECFVMDCX&lid=LSTMOBGHWFHECFVMDCXSSCYWA&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=80353849-6b4e-4d41-8c55-89e75adb1c90.MOBGHWFHECFVMDCX.SEARCH&ppt=sp&ppn=sp&ssid=47g7b02in40000001697276159548&qH=0b3f45b266a97d70"
+                                        target="_blank">
+
+                                        <div class="d-flex">
+                                            <h3>₹59,999</h3>
+                                            <img src="./images/flikart assured logo.png" alt="" class='w-50'>
+                                        </div>
+                                        <p><span>₹69,900</span> 17% off</p>
+                                        <p>
+                                            Free delivery
+
+                                            <p class="text-bg-primary">Crazy Deal of the Year</p>
+                                        </p>
+                                        <h6>Upto ₹39,150 Off on Exchange</h6>
+
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- 4th product -->
+
+                    <div class="product1">
+                        <div class="col row shadow-sm p-3">
+                            <div class="col-lg-3 ">
+                                <div class="photo">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=f9fe62cc-9759-494b-91a9-f258d659bc77.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=qmua3l4kw00000001697263482171&qH=0b3f45b266a97d70"
+                                        target="_blank"><img src="./images/product4.webp" alt=""
+                                            class="img-fluid w-100"></a>
+
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=f9fe62cc-9759-494b-91a9-f258d659bc77.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=qmua3l4kw00000001697263482171&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <input type="checkbox" id="compare">
+                                        <label for="compare">Add to Compare</label>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-5  ">
+                                <div class="details">
+                                    <a href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=de844c8f-af39-4916-adfb-f008f2b801fd.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=uk04n187800000001697264106308&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <h4>APPLE iPhone 12 (Blue, 64 GB)</h4>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9734;</span>
+                                            <span class="star">&#9734;</span>
+                                            <span class="star">&#9734;</span>4.61,96,410 Ratings & 13,101 Reviews
+                                        </div>
+
+                                        <ul>
+
+
+                                            <li>64 GB ROM</li>
+                                            <li>
+                                                15.49 cm (6.1 inch) Super Retina XDR Display
+
+                                            </li>
+                                            <li>
+                                                12MP + 12MP | 12MP Front Camera
+
+                                            </li>
+                                            <li>A14 Bionic Chip with Next Generation Neural Engine Processor</li>
+                                            <li>Ceramic Shield</li>
+                                            <li>Industry-leading IP68 Water Resistance</li>
+                                            <li>All Screen OLED Display</li>
+                                            <li>12MP TrueDepth Front Camera with Night Mode, 4K Dolby Vision HDR
+                                                Recording</li>
+                                            <li>Brand Warranty for 1 Year</li>
+                                        </ul>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="price">
+                                    <a
+                                        href="https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d?pid=MOBGHWFHSV7GUFWA&lid=LSTMOBGHWFHSV7GUFWA3AV8J8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=de844c8f-af39-4916-adfb-f008f2b801fd.MOBGHWFHSV7GUFWA.SEARCH&ppt=sp&ppn=sp&ssid=uk04n187800000001697264106308&qH=0b3f45b266a97d70">
+
+                                        <div class="d-flex">
+                                            <h3>₹42,999</h3>
+                                            <img src="./images/flikart assured logo.png" alt="" class='w-50'>
+                                        </div>
+                                        <p><span>₹49,900</span> 13% off</p>
+                                        <p>
+                                            Free delivery
+
+                                            <p class="text-primary">Big sale of the year</p>
+                                        </p>
+                                        <h6>Upto ₹39,150 Off on Exchange</h6>
+
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- product 5 -->
+
+                    <div class="product1">
+                        <div class="col row shadow-sm p-3">
+                            <div class="col-lg-3 ">
+                                <div class="photo">
+                                    <a href="https://www.flipkart.com/apple-iphone-12-red-128-gb/p/itma7bd86885ed98?pid=MOBFWBYZUHPFWQRD&lid=LSTMOBFWBYZUHPFWQRD5P9BK8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&srno=s_2_27&otracker=search&otracker1=search&fm=Search&iid=16e53f18-f34f-49c8-81c7-723af83e9020.MOBFWBYZUHPFWQRD.SEARCH&ppt=sp&ppn=sp&qH=0b3f45b266a97d70"
+                                        target="_blank"><img src="./images/product5.webp" alt=""
+                                            class="img-fluid w-100"></a>
+
+                                    <a href="https://www.flipkart.com/apple-iphone-12-red-128-gb/p/itma7bd86885ed98?pid=MOBFWBYZUHPFWQRD&lid=LSTMOBFWBYZUHPFWQRD5P9BK8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&srno=s_2_27&otracker=search&otracker1=search&fm=Search&iid=16e53f18-f34f-49c8-81c7-723af83e9020.MOBFWBYZUHPFWQRD.SEARCH&ppt=sp&ppn=sp&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <input type="checkbox" id="compare">
+                                        <label for="compare">Add to Compare</label>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-5  ">
+                                <div class="details">
+                                    <a href="https://www.flipkart.com/apple-iphone-12-red-128-gb/p/itma7bd86885ed98?pid=MOBFWBYZUHPFWQRD&lid=LSTMOBFWBYZUHPFWQRD5P9BK8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&srno=s_2_27&otracker=search&otracker1=search&fm=Search&iid=16e53f18-f34f-49c8-81c7-723af83e9020.MOBFWBYZUHPFWQRD.SEARCH&ppt=sp&ppn=sp&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <h4>APPLE iPhone 14 ((PRODUCT)RED, 128 GB)</h4>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9734;</span>4.71,26,080 Ratings & 4,356 Reviews
+                                        </div>
+
+                                        <ul>
+
+
+                                            <li>128 GB ROM</li>
+                                            <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                                            <li>12MP + 12MP | 12MP Front Camera</li>
+                                            <li>A15 Bionic Chip, 6 Core Processor Processor</li>
+                                            <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="price">
+                                    <a href="https://www.flipkart.com/apple-iphone-12-red-128-gb/p/itma7bd86885ed98?pid=MOBFWBYZUHPFWQRD&lid=LSTMOBFWBYZUHPFWQRD5P9BK8&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&srno=s_2_27&otracker=search&otracker1=search&fm=Search&iid=16e53f18-f34f-49c8-81c7-723af83e9020.MOBFWBYZUHPFWQRD.SEARCH&ppt=sp&ppn=sp&qH=0b3f45b266a97d70"
+                                        target="_blank">
+
+                                        <div class="d-flex">
+                                            <h3>₹57,999</h3>
+                                            <img src="./images/flikart assured logo.png" alt="" class='w-50'>
+                                        </div>
+                                        <p><span>₹69,900</span> 17% off</p>
+                                        <p>
+                                            Free delivery
+
+                                            Crazy Deal of the Year
+                                        </p>
+                                        <h6>Upto ₹39,150 Off on Exchange</h6>
+                                        <p class="text-danger fs-6">only 4 left</p>
+
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- product 6 -->
+                    <div class="product1">
+                        <div class="col row shadow-sm p-3">
+                            <div class="col-lg-3 ">
+                                <div class="photo">
+                                    <a href="https://www.flipkart.com/apple-iphone-15-pink-128-gb/p/itm7579ed94ca647?pid=MOBGTAGPNMZA5PU5&lid=LSTMOBGTAGPNMZA5PU5MCJV2S&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&srno=s_2_30&otracker=search&otracker1=search&fm=Search&iid=16e53f18-f34f-49c8-81c7-723af83e9020.MOBGTAGPNMZA5PU5.SEARCH&ppt=sp&ppn=sp&qH=0b3f45b266a97d70"
+                                        target="_blank"><img src="./images/product6.webp" alt=""
+                                            class="img-fluid w-100"></a>
+
+                                    <a href="https://www.flipkart.com/apple-iphone-15-pink-128-gb/p/itm7579ed94ca647?pid=MOBGTAGPNMZA5PU5&lid=LSTMOBGTAGPNMZA5PU5MCJV2S&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&srno=s_2_30&otracker=search&otracker1=search&fm=Search&iid=16e53f18-f34f-49c8-81c7-723af83e9020.MOBGTAGPNMZA5PU5.SEARCH&ppt=sp&ppn=sp&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <input type="checkbox" id="compare">
+                                        <label for="compare">Add to Compare</label>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-5  ">
+                                <div class="details">
+                                    <a href="https://www.flipkart.com/apple-iphone-15-pink-128-gb/p/itm7579ed94ca647?pid=MOBGTAGPNMZA5PU5&lid=LSTMOBGTAGPNMZA5PU5MCJV2S&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&srno=s_2_30&otracker=search&otracker1=search&fm=Search&iid=16e53f18-f34f-49c8-81c7-723af83e9020.MOBGTAGPNMZA5PU5.SEARCH&ppt=sp&ppn=sp&qH=0b3f45b266a97d70"
+                                        target="_blank">
+                                        <h4> APPLE iPhone 15 (Pink, 128 GB)</h4>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9734;</span>
+                                            <span class="star">&#9734;</span>4.7544 Ratings & 57 Reviews
+                                        </div>
+
+                                        <ul>
+
+
+                                            <li>128 GB ROM</li>
+                                            <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                                            <li>48MP + 12MP | 12MP Front Camera</li>
+                                            <li>A16 Bionic Chip, 6 Core Processor Processor</li>
+                                            <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="price">
+                                    <a href="https://www.flipkart.com/apple-iphone-15-pink-128-gb/p/itm7579ed94ca647?pid=MOBGTAGPNMZA5PU5&lid=LSTMOBGTAGPNMZA5PU5MCJV2S&marketplace=FLIPKART&q=iphone&store=tyy%2F4io&srno=s_2_30&otracker=search&otracker1=search&fm=Search&iid=16e53f18-f34f-49c8-81c7-723af83e9020.MOBGTAGPNMZA5PU5.SEARCH&ppt=sp&ppn=sp&qH=0b3f45b266a97d70"
+                                        target="_blank">
+
+                                        <div class="d-flex">
+                                            <h3>₹79,999</h3>
+                                            <img src="./images/flikart assured logo.png" alt="" class='w-50'>
+                                        </div>
+
+
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+        <div class="text-center">
+            <iframe width="424" height="238" src="https://www.youtube.com/embed/rwggGa6RDLU"
+                title="Flipkart Big Billion Days, Coming Soon!" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <h1 class="text-danger">BIG BILLION DAYS!!!!....</h1>
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- footer -->
+
+
+    <footer>
+
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="col row p-3">
+                    <div class="col-md-3">
+                        <h6>ABOUT</h6>
+                        <a href="https://www.flipkart.com/helpcentre?otracker=${otracker}_navlinks"
+                            target="_blank">Contact Us</a> <br>
+                        <a href="https://corporate.flipkart.net/corporate-home" target="_blank">About us</a> <br>
+                        <a href="https://www.flipkartcareers.com/?otracker=${otracker}_navlinks#!/"
+                            target="_blank">Careers</a> <br>
+                        <a href="https://stories.flipkart.com/" target="_blank">Flipkart stories</a> <br>
+                        <a href="https://stories.flipkart.com/category/top-stories/news/" target="_blank">Press</a> <br>
+                        <a href="https://www.flipkartwholesale.com/" target="_blank">Flipkart wholesale</a> <br>
+                        <a href="https://www.cleartrip.com/" target="_blank">Cleartrip</a> <br>
+                        <a href="https://www.flipkart.com/corporate-information" target="_blank">Cooperate
+                            Information</a><br>
+
+                    </div>
+                    <div class="col-md-3">
+                        <h6>HELP</h6>
+                        <a href="https://www.flipkart.com/pages/payments" target="_blank">Payments</a><br>
+                        <a href="https://www.flipkart.com/pages/shipping" target="_blank">Shiping</a><br>
+                        <a href="https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG"
+                            target="_blank">Cancelletion & <br> Returns</a><br>
+
+                        <a href="https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG"
+                            target="_blank">FAQ</a><br>
+                        <a href="https://seller.flipkart.com/page-not-found" target="_blank">Report Infringment</a><br>
+
+                    </div>
+                    <div class="col-md-3">
+                        <h6>CONSUMER POLICY</h6>
+                        <a href="https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG"
+                            target="_blank">Cancelletion &<br> Returns</a><br>
+
+                        <a href="https://www.flipkart.com/pages/terms?otracker=${otracker}_navlinks"
+                            target="_blank">Terms of use</a><br>
+
+                        <a href="https://www.flipkart.com/pages/paymentsecurity?otracker=${otracker}_navlinks"
+                            target="_blank">Secuirity</a><br>
+                        <a href="https://www.flipkart.com/pages/privacypolicy?otracker=${otracker}_navlinks"
+                            target="_blank">Privacy</a><br>
+                        <a href="https://www.flipkart.com/sitemap?otracker=${otracker}_navlinks"
+                            target="_blank">Sitemap</a><br>
+                        <a href="https://www.flipkart.com/pages/grievance-redressal-mechanism?otracker=${otracker}_navlinks"
+                            target="_blank">Grievence Redressal</a><br>
+                        <a href="https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=${otracker}_navlinks"
+                            target="_blank">EPR compliance</a>
+                        <br>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>SOCIAL</h6>
+                        <a href="https://www.facebook.com/flipkart" target="_blank">Facebook </a><br>
+                        <a href="https://twitter.com/flipkart" target="_blank">Twitter</a><br>
+                        <a href="https://www.youtube.com/flipkart" target="_blank">Youtube</a><br>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-5">
+                <div class="col row ">
+                    <div class="col-md-5 border-start border-light p-3">
+                        <h6>Mail Us:</h6>
+                        <p>Flikart Internet Private Limited <br> Building Alyssa, Begonia & <br>Clove Embassy Tech
+                            Village, <br>Outer Ring Road Devarabeesanahali Vlillage, <br>Bengaluru, 560103, <br>
+                            Karnataka , India</p>
+
+                    </div>
+                    <div class="col-md-5 p-3">
+                        <h6>Registered Office Address</h6>
+                        <address>Flikart Internet Private Limited <br> Building Alyssa, Begonia & Clove Embassy Tech
+                            Village, <br>Outer Ring Road Devarabeesanahali Vlillage, <br>Bengaluru, 560103, <br>
+                            Karnataka , India <br> CIN: U51109KA2012PTC066107 <br> Telphone: <span
+                                class="text-primary">044-45614700</span></address>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="seller">
+            <div class="row border-top border-light p-3" style="font-size: 10px;">
+
+
+
+                <div class="col-md-2 ">
+                    <a href="https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect"><i class="fa-solid fa-store" style="color: #ffd500;"></i> BECOME A SELLER</a>
+
+                </div>
+                <div class="col-md-2">
+                    <a href="https://brands.flipkart.com/"><i class="fa-regular fa-star-half-stroke" style="color: #ffd500;"></i>ADVERTISE</a>
+
+                </div>
+                
+                <div class="col-md-2">
+                    <a href="https://www.flipkart.com/the-gift-card-store?otracker=${otracker}_footer_navlinks"><i class="fa-solid fa-gift" style="color: #ffd500;"></i>GIFT CARDS</a>
+
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.flipkart.com/helpcentre?otracker=${otracker}_footer_navlinks"><i class="fa-solid fa-circle-question" style="color: #ffd500;"></i> HELP
+                        CENTER</a>
+
+                </div>
+
+                <div class="col-md-2">
+                    <p>&copy; 2007-2023 Flipkart.com</p>
+
+                </div>
+                <div class="col-lg-2">
+                    <div><img src="./images/payment-method-c454fb (1).svg" alt="" class="w-100"></div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        </div>
+
+    </footer>
+
+
+</body>
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
